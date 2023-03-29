@@ -15,6 +15,7 @@ public class Checkboxexample {
 		driver.get("https://artoftesting.com/samplesiteforselenium");
 		driver.findElement(By.xpath("//input[@class='Automation']")).click();
 		driver.findElement(By.xpath("//input[@class='Performance']")).click();
+		System.out.println("completed");
 	}
 
 }
